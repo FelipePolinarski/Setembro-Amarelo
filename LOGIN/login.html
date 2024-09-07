@@ -1,0 +1,101 @@
+<!DOCTYPE>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Setembro Amarelo</title>
+  <link href="login.css" rel="stylesheet" type="text/css" />
+  <link rel="shortcut icon" type="imagex/png" href="../IMAGENS/fitinha.ico">
+</head>
+
+<body>
+
+  <nav>
+    <ul>
+      <li><button><a href="../index.html">Home</a></button></li>
+      <li><button><a href="../AJUDA/ajuda.html">Fale Conosco</a></button></li>
+      <li><button><a href="../index.html">Encontre Ajuda</a></button></li>
+      <li><button><a href="../index.html">Campanha</a></button></li>
+      <li><button><a href="../index.html">Agenda</a></button></li>
+    </ul>
+
+    <button class="canvaslogin">Login</button>
+
+    <div class="botaologin">
+      <ul>
+        <li><a href="login.html">Entrar</a></li>
+        <li><a href="CRIARCONTA/criarconta.html">Criar Conta</a></li>
+      </ul>
+    </div>
+
+    <script> const trigger = document.querySelector('.canvaslogin')
+      const offcanvas = document.querySelector('.botaologin')
+
+      trigger.addEventListener('click', toggleMobileMenu)
+
+      function toggleMobileMenu() {
+        offcanvas.classList.toggle('is-active')
+      }
+    </script>
+  </nav>
+
+  <main>
+    <h1>Fazer Login</h1>
+    <div class="sections">
+      <section class="entrar">
+        <h2>Entrar</h2>
+        <div class="risco">
+        </div>
+        <h3 class="margem">Caso você já tenha uma conta cadastrada no nosso site, basta acessá-la inserindo seus dados
+          de acesso
+          abaixo.</h3>
+        <form id="dados-entrar">
+          <label>E-mail</label>
+          <input type="email" required>
+          <label>Senha</label>
+          <input type="password" required>
+        </form>
+        <div class="botao">
+          <button form="dados-entrar" value="Entrar">Entrar</button>
+          <h3>Esqueceu a senha?</h3>
+        </div>
+        <h4>* Campos Obrigatórios</h4>
+      </section>
+
+      <section class="criar">
+        <h2>Criar conta</h2>
+        <div class="risco">
+        </div>
+        <h3>Faça seu cadastro no nosso site e fique por dentro de todas as últimas novidades sobre eventos em Curitiba e
+          Região Metropolitana!</h3>
+        <a href="CRIARCONTA/criarconta.html"><button>Criar conta</button></a>
+      </section>
+    </div>
+  </main>
+
+
+  <div class="margemforced"></div>
+
+  <section class="ajuda">
+    <a href="../AJUDA/ajuda.html"><img src="../IMAGENS/ajuda5.png"></a>
+  </section>
+
+  <footer>
+    <img src="../IMAGENS/seloqualidade.png">
+
+    <p>2°A 2023© - Todos os direitos reservados.</p>
+
+    <p>Contatos:</p>
+
+    <ul>
+      <li><a href="https://wa.me/5541996546061" target="_blank">Tel: <span style="text-decoration: underline"><span
+              style="color: blue">(41)
+              99654-6061</span></span></a></li>
+      <li><a href="mailto:augusto.felipe@escola.pr.gov.br">Email: <span style="text-decoration: underline"><span
+              style="color: blue">augusto.felipe@escola.pr.gov.br</span></span></a></li>
+    </ul>
+  </footer>
+
+</body>
+
+</html>

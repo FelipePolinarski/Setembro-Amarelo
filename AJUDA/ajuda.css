@@ -1,0 +1,213 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+/*Começo do Nav*/
+
+nav {
+  display: flex;
+  background-color: black;
+}
+
+nav a {
+  text-decoration: none;
+  color: inherit;
+}
+
+nav ul {
+  display: inline-flex;
+  list-style: none;
+  margin: auto;
+}
+
+nav li {
+  margin: 25px 20px;
+  font-size: 25px;
+  color: white;
+  cursor: pointer;
+}
+
+nav button {
+  height: 45px;
+  width: 150px;
+  border-radius: 0;
+  border: 0;
+  background-color: inherit;
+  color: white;
+  font-size: 18px;
+}
+
+nav button:hover {
+  transition: 0.2s;
+  background-color: yellow;
+  border-radius: 1px;
+}
+
+.canvaslogin {
+  position: absolute;
+  width: 100px;
+  height: 40px;
+  right: 20px;
+  top: 20px;
+}
+
+.botaologin {
+  background-color: #363636;
+  color: #fcfcfc;
+  display: flex;
+  height: 90px;
+  width: 200px;
+  position: absolute;
+  right: 20px;
+  top: 80px;
+  transform: translateX(-1000%);
+  transition: all 235ms cubic-bezier(.95, .05, .795, .035);
+}
+
+.botaologin.is-active {
+  transform: none;
+  transition: all 205ms cubic-bezier(.19, 1, .22, 1);
+}
+
+.botaologin ul {
+  display: block;
+  list-style: none;
+  margin: 0;
+}
+
+.botaologin li {
+  margin: 10px 0;
+  color: white;
+  cursor: pointer;
+}
+
+.botaologin a {
+  height: 40px;
+  width: 150px;
+  color: white;
+  font-size: 25px;
+  text-align: left;
+}
+
+.botaologin a:hover {
+  text-decoration: underline;
+}
+
+/*Fim do Nav*/
+
+/*Começo do Main*/
+
+.faixa-amarela {
+  height: 2px;
+  width: 70%;
+  background-color: yellow;
+  margin: auto;
+}
+
+.margemforced {
+  height: 20px;
+}
+
+main h1 {
+  font-weight: normal;
+  font-size: 60px;
+  margin-left: 120px;
+}
+
+main h2 {
+  font-size: 40px;
+  margin-left: 160px;
+  font-weight: normal;
+}
+
+main p {
+  font-size: 25px;
+  text-align: justify;
+}
+
+.paragrafo {
+  width: 70%;
+  margin: 30px auto;
+}
+
+main fieldset {
+  width: 50%;
+  margin: auto;
+  padding-top: 20px;
+  border: none;
+}
+
+main label {
+  font-size: 25px;
+  font-weight: bold;
+  margin: 15px 15px 0 30px;
+}
+
+main input {
+  width: 72.5%;
+  height: 35px;
+  border: solid gray 1px;
+  border-radius: 0;
+  margin-bottom: 20px;
+  font-size: 18px;
+  padding: 10px;
+}
+
+main textarea {
+  margin: 20px 0 20px 10%;
+  width: 80%;
+  height: 300px;
+  font-size: 18px;
+  padding: 10px;
+}
+
+.enviar {
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  margin: 0 0 0 35%;
+  height: 42px;
+  width: 30%;
+  text-align: center;
+}
+
+.enviar:hover {
+  background-color: yellow;
+}
+
+.enviar:active {
+  background-color: orange;
+}
+
+/*Fim do Main*/
+
+/*Começo do Footer*/
+
+footer {
+  display: flex;
+  background-color: lightgoldenrodyellow;
+  padding: 5px;
+}
+
+footer img {
+  height: 70px;
+  width: 70px;
+}
+
+footer p {
+  font-size: 20px;
+  margin: auto 5px auto 150px;
+}
+
+footer ul {
+  list-style: none;
+  margin: auto 0;
+}
+
+footer a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/*Fim do Footer*/

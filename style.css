@@ -1,0 +1,233 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+/*Começo do Nav*/
+
+nav {
+  display: flex;
+  background-color: black;
+}
+
+nav a {
+  text-decoration: none;
+  color: inherit;
+}
+
+nav ul {
+  display: inline-flex;
+  list-style: none;
+  margin: auto;
+}
+
+nav li {
+  margin: 25px 20px;
+  font-size: 25px;
+  color: white;
+  cursor: pointer;
+}
+
+nav button {
+  height: 45px;
+  width: 150px;
+  border-radius: 0;
+  border: 0;
+  background-color: inherit;
+  color: white;
+  font-size: 18px;
+}
+
+nav button:hover {
+  transition: 0.2s;
+  background-color: yellow;
+  border-radius: 1px;
+}
+
+.canvaslogin {
+  position: absolute;
+  width: 100px;
+  height: 40px;
+  right: 20px;
+  top: 20px;
+}
+
+.botaologin {
+  background-color: #363636;
+  color: #fcfcfc;
+  display: flex;
+  height: 90px;
+  width: 200px;
+  position: absolute;
+  right: 20px;
+  top: 80px;
+  transform: translateX(-1000%);
+  transition: all 235ms cubic-bezier(.95, .05, .795, .035);
+}
+
+.botaologin.is-active {
+  transform: none;
+  transition: all 205ms cubic-bezier(.19, 1, .22, 1);
+}
+
+.botaologin ul {
+  display: block;
+  list-style: none;
+  margin: 0;
+}
+
+.botaologin li {
+  margin: 10px 0;
+  color: white;
+  cursor: pointer;
+}
+
+.botaologin a {
+  height: 40px;
+  width: 150px;
+  color: white;
+  font-size: 25px;
+  text-align: left;
+}
+
+.botaologin a:hover {
+  text-decoration: underline;
+}
+
+/*Fim do Nav*/
+
+/*Começo Section: Banner*/
+
+.banner-principal img {
+  height: 700px;
+  width: 100%;
+}
+
+/*Fim Section: Banner*/
+
+/*Começo do Main*/
+
+main iframe {auto;
+  width: 60%;
+  height: 600px;
+  margin: 15px 20%;
+}
+
+.faixa-amarela {
+  height: 2px;
+  width: 70%;
+  background-color: yellow;
+  margin: auto;
+}
+
+.banner-topico {
+  height: 200px;
+  width: 70%;
+  margin: auto;
+  margin-top: 25px;
+}
+
+.banner-topico img {
+  height: 100%;
+  width: 100%;
+}
+
+main h1 {
+  font-size: 70px;
+  margin-left: 120px;
+}
+
+main h2 {
+  font-size: 40px;
+  margin-left: 160px;
+}
+
+main p {
+  font-size: 25px;
+  text-align: justify;
+}
+
+.paragrafo {
+  width: 70%;
+  margin: 30px auto;
+}
+
+main ul {
+  margin: auto;
+  width: 65%;
+  list-style: none;
+}
+
+.p-lista {
+  width: 100%;
+  margin: auto;
+  margin-bottom: 30px;
+  margin-top: 60px;
+  text-decoration: underline;
+}
+
+.p-lista::before {
+  content: "→  ";
+}
+
+.p-corpo {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 15px;
+}
+
+.margemforced {
+  height: 20px;
+}
+
+/*Fim do Main*/
+
+/*Começo Section: Ajuda*/
+
+.ajuda img {
+  position: fixed;
+  right: 15px;
+  bottom: 15px;
+  border-radius: 50%;
+  height: 140px;
+  width: 140px;
+}
+
+.ajuda img:hover {
+  right: 10px;
+  bottom: 10px;
+  height: 150px;
+  width: 150px;
+}
+
+/*Fim Section: Ajuda*/
+
+/*Começo do Footer*/
+
+footer {
+  display: flex;
+  background-color: lightgoldenrodyellow;
+  padding: 5px;
+}
+
+footer img {
+  height: 70px;
+  width: 70px;
+}
+
+footer p {
+  font-size: 20px;
+  margin: auto 5px auto 150px;
+}
+
+footer ul {
+  list-style: none;
+  margin: auto 0;
+}
+
+footer a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/*Fim do Footer*/

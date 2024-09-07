@@ -1,0 +1,287 @@
+<!DOCTYPE>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Setembro Amarelo</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="shortcut icon" type="imagex/png" href="IMAGENS/fitinha.ico">
+</head>
+
+<body>
+
+  <script>
+    $('.nav a[href^="#"]').on('click', function (e) {
+      e.preventDefault();
+      var id = $(this).attr('href'),
+        targetOffset = $(id).offset().top;
+
+      $('html, body').animate({
+        scrollTop: targetOffset - 100
+      }, 500);
+    });
+  </script>
+
+  <nav>
+    <ul>
+      <li><button><a href="#home">Home</a></button></li>
+      <li><button><a href="AJUDA/ajuda.html">Fale Conosco</a></button></li>
+      <li><button><a href="#encontreajuda">Encontre Ajuda</a></button></li>
+      <li><button><a href="#campanha">Campanha</a></button></li>
+      <li><button><a href="#agenda">Agenda</a></button></li>
+    </ul>
+
+    <button class="canvaslogin">Login</button>
+
+    <div class="botaologin">
+      <ul>
+        <li><a href="LOGIN/login.html">Entrar</a></li>
+        <li><a href="LOGIN/CRIARCONTA/criarconta.html">Criar Conta</a></li>
+      </ul>
+    </div>
+
+    <script> const trigger = document.querySelector('.canvaslogin')
+      const offcanvas = document.querySelector('.botaologin')
+
+      trigger.addEventListener('click', toggleMobileMenu)
+
+      function toggleMobileMenu() {
+        offcanvas.classList.toggle('is-active')
+      }
+    </script>
+  </nav>
+
+  <section class="banner-principal">
+    <img src="IMAGENS/banner2.png">
+  </section>
+
+  <main>
+
+    <div class="lacinho-texto">
+      <h1 id="home">Sobre a Campanha<span style="color: yellow"> Setembro Amarelo</span></h1>
+    </div>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/RlmoNPUKI4w?si=FlWJBNah4dTimEGL"
+      title="YouTube video player" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen></iframe>
+
+    <h2>Setembro Amarelo: Unidos pela Prevenção ao Suícidio</h2>
+
+    <div class="faixa-amarela">
+    </div>
+    <div class="banner-topico">
+      <img src="IMAGENS/home.png">
+    </div>
+
+    <div class="paragrafo">
+      <p>A campanha Setembro Amarelo busca alertar para a importância de reconhecer
+        os sinais de sofrimento emocional e
+        incentivar conversas abertas sobre o tema. Neste mês, é fundamental que todos estejamos dispostos a ouvir,
+        apoiar
+        e compartilhar recursos que possam salvar vidas. É um momento para lembrar que a prevenção é
+        possível e que juntos
+        podemos construir uma sociedade mais empática e acolhedora.</p>
+    </div>
+
+    <h2>Por que Amarelo?</h2>
+
+    <div class="faixa-amarela">
+    </div>
+    <div class="banner-topico">
+      <img src="IMAGENS/fitamarela.png">
+    </div>
+
+    <div class="paragrafo">
+      <p>O amarelo representa a luz que podemos oferecer a quem está em um momento de
+        escuridão, enfrentando a dor
+        emocional e o desespero. Durante todo o mês, organizações, instituições de saúde, voluntários e pessoas comuns
+        se
+        unem para disseminar informações sobre saúde mental, quebrar estigmas e oferecer apoio àqueles que precisam.
+      </p>"]').on('click', function (e) {
+      e.preventDefault();
+      var id = $(this).attr('href'),
+        targetOffset = $(id).offset().top;
+
+      $('html, body').animate({
+        scrollTop: targetOffset - 100
+      }, 500);
+    </div>
+
+    <h2 id="encontreajuda">Encontre Ajuda:</h2>
+
+    <div class="faixa-amarela">
+    </div>
+    <div class="banner-topico">
+      <img src="IMAGENS/encontreajuda.png">
+    </div>
+
+    <div class="paragrafo">
+      <p>Em Curitiba e região, diversas opções de apoio psicológico estão disponíveis para quem precisa de ajuda.</p>
+      <p>A busca por ajuda profissional é um passo corajoso e fundamental para quem está lidando com transtornos
+        mentais, estresse, ansiedade, depressão, ou simplesmente precisa de alguém com quem conversar sobre seus
+        sentimentos e preocupações. Os psicólogos são profissionais altamente capacitados para oferecer apoio e
+        orientação durante momentos difíceis.</p>
+      <p>Aqui estão algumas opções de psicólogos em Curitiba e região que você pode considerar:</p>
+
+      <p class="p-lista">Centro de Atenção Psicossocial (CAPS):</p>
+      <p class="p-corpo">O CAPS é uma rede pública de atendimento psicológico e psiquiátrico, oferecendo tratamento
+        gratuito para transtornos mentais. Há diversas unidades espalhadas por Curitiba e cidades vizinhas.</p>
+
+      <p class="p-lista">Clínicas de Psicologia:</p>
+      <p class="p-corpo">Curitiba possui inúmeras clínicas privadas de psicologia que oferecem atendimento
+        especializado. Você pode pesquisar online ou pedir recomendações a amigos e familiares.</p>
+
+      <p class="p-lista">Psicólogos Online:</p>
+      <p class="p-corpo">Com o avanço da tecnologia, muitos psicólogos oferecem sessões de terapia online, o que pode
+        ser uma opção conveniente para quem tem dificuldades de locomoção ou prefere a comodidade de receber
+        atendimento
+        em casa.</p>
+
+      <p class="p-lista">Universidades e Instituições de Ensino:</p>
+      <p class="p-corpo">Muitas universidades em Curitiba contam com programas de atendimento psicológico oferecidos
+        por
+        estudantes supervisionados por profissionais experientes. Esses serviços geralmente têm um custo reduzido.</p>
+
+      <p class="p-lista">Linhas de Apoio Psicológico:</p>
+      <p class="p-corpo">Além de consultórios e clínicas, diversas organizações e instituiçõ"]').on('click', function (e) {
+      e.preventDefault();
+      var id = $(this).attr('href'),
+        targetOffset = $(id).offset().top;
+
+      $('html, body').animate({
+        scrollTop: targetOffset - 100
+      }, 500);"]').on('click', function (e) {
+      e.preventDefault();
+      var id = $(this).attr('href'),
+        targetOffset = $(id).offset().top;
+
+      $('html, body').animate({
+        scrollTop: targetOffset - 100
+      }, 500);"]').on('click', function (e) {
+      e.preventDefault();
+      var id = $(this).attr('href'),
+        targetOffset = $(id).offset().top;
+
+      $('html, body').animate({
+        scrollTop: targetOffset - 100
+      }, 500);es oferecem linhas
+        telefônicas de apoio psicológico, onde você pode conversar com profissionais treinados anonimamente.</p>
+
+      <div class="margemforced"></div>
+
+      <p>Lembre-se de que pedir ajuda não é um sinal de fraqueza, mas sim de coragem e autocuidado. Se você ou alguém
+        que você conhece está passando por dificuldades emocionais, não hesite em buscar ajuda. O Setembro Amarelo é
+        um
+        lembrete de que a prevenção do suicídio começa com a conversa e o apoio mútuo.</p>
+
+      <p>Além dos recursos mencionados acima, é importante conversar com amigos e familiares sobre seus sentimentos e
+        procurar manter um ambiente de compreensão e apoio. Juntos, podemos ajudar a combater o estigma em torno da
+        saúde mental e construir uma sociedade mais compassiva e solidária.</p>
+    </div>
+
+    <h2 id="campanha">Campanha e Realizações:</h2>
+
+    <div class="faixa-amarela">
+    </div>
+    <div class="banner-topico">
+      <img src="IMAGENS/campanha.png">
+    </div>
+
+    <div class="paragrafo">
+      <p>Setembro é o mês de conscientização sobre a prevenção do suicídio, e Curitiba não fica de
+        fora dessa importante campanha. O Setembro Amarelo é uma iniciativa que visa
+        sensibilizar a sociedade para a
+        importância de discutir abertamente a saúde mental e oferecer apoio a quem precisa. Este ano, diversas ações e
+        eventos estão programados em Curitiba para promover essa causa crucial.</p>
+    </div>
+
+    <div class="lista-campanha" id="agenda">
+      <ul>
+        <li>
+          <p class="p-lista">1. Palestras e Rodas de Conversa</p>
+
+          <p class="p-corpo">Local: Centro Cultural de Curitiba</p>
+          <p class="p-corpo">Endereço: Rua Engenheiro Rebouças, 1732, Rebouças</p>
+
+          <p class="p-corpo">Participe de palestras e rodas de conversa com psicólogos e especialistas em saúde
+            mental.
+            Esses eventos
+            proporcionarão informações valiosas sobre a prevenção do suicídio e a importância de cuidar da nossa saúde
+          "]').on('click', function (e) {
+      e.preventDefault();
+      var id = $(this).attr('href'),
+        targetOffset = $(id).offset().top;
+
+      $('html, body').animate({
+        scrollTop: targetOffset - 100
+      }, 500);  mental. Confira a programação completa no site oficial da campanha.</p>
+        </li>
+
+        <li>
+          <p class="p-lista">2. Caminhada pela Vida</p>
+
+          <p class="p-corpo">Local: Parque Barigui</p>
+          <p class="p-corpo">Endereço: Rua Professor Pedro Viriato Parigot de Souza, s/n, Bigorrilho</p>
+
+          <p class="p-corpo">No dia 15 de setembro, venha participar da Caminhada pela Vida no Parque Barigui.
+            Junte-se
+            a centenas de
+            pessoas que apoiam a causa e caminhe para mostrar solidariedade aos que lutam contra a depressão e outras
+            doenças mentais. A caminhada começa às 10h, então não se atrase!</p>
+        </li>
+
+        <li>
+          <p class="p-lista">3. Exposição de Arte e Fotografia</p>
+
+          <p class="p-corpo">Local: Museu Oscar Niemeyer (MON)</p>
+          <p class="p-corpo">Endereço: Rua Marechal Hermes, 999, Centro Cívico</p>
+
+          <p class="p-corpo">O MON abrigará uma emocionante exposição de arte e fotografia que explora as experiências
+            daqueles que
+            enfrentam desafios de saúde mental. A exposição é uma forma poderosa de promover a empatia e a
+            compreensão.
+            Não perca essa oportunidade de apoiar a causa.</p>
+        </li>
+
+        <li>
+          <p class="p-lista">4. Workshop de Saúde Mental</p>
+
+          <p class="p-corpo">Local: Universidade Federal do Paraná (UFPR)</p>
+          <p class="p-corpo">Endereço: Praça Santos Andrade, 50, Centro</p>
+
+          <p class="p-corpo">A UFPR sediará um workshop educativo sobre saúde mental, com a participação de
+            profissionais renomados na
+            área. Este evento é uma oportunidade única para aprender mais sobre como podemos cuidar de nossa própria
+            saúde mental e apoiar aqueles ao nosso redor.</p>
+        </li>
+      </ul>
+    </div>
+
+  </main>
+
+  <div class="margemforced"></div>
+
+  <section class="ajuda">
+    <a href="AJUDA/ajuda.html"><img src="IMAGENS/ajuda5.png"></a>
+  </section>
+
+  <footer>
+    <img src="IMAGENS/seloqualidade.png">
+
+    <p>2°A 2023© - Todos os direitos reservados.</p>
+
+    <p>Contatos:</p>
+
+    <ul>
+      <li><a href="https://wa.me/5541996546061" target="_blank">Tel: <span style="text-decoration: underline"><span
+              style="color: blue">(41)
+              99654-6061</span></span></a></li>
+      <li><a href="mailto:augusto.felipe@escola.pr.gov.br">Email: <span style="text-decoration: underline"><span
+              style="color: blue">augusto.felipe@escola.pr.gov.br</span></span></a></li>
+    </ul>
+  </footer>
+
+</body>
+
+</html>

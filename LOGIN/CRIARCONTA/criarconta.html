@@ -1,0 +1,102 @@
+<!DOCTYPE>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Setembro Amarelo</title>
+  <link href="criarconta.css" rel="stylesheet" type="text/css" />
+  <link rel="shortcut icon" type="imagex/png" href="../../IMAGENS/fitinha.ico">
+</head>
+
+<body>
+
+  <nav>
+    <ul>
+      <li><button><a href="../../index.html">Home</a></button></li>
+      <li><button><a href="../../AJUDA/ajuda.html">Fale Conosco</a></button></li>
+      <li><button><a href="../../index.html">Encontre Ajuda</a></button></li>
+      <li><button><a href="../../index.html">Campanha</a></button></li>
+      <li><button><a href="../../index.html">Agenda</a></button></li>
+    </ul>
+
+    <button class="canvaslogin">Login</button>
+
+    <div class="botaologin">
+      <ul>
+        <li><a href="../login.html">Entrar</a></li>
+        <li><a href="criarconta.html">Criar Conta</a></li>
+      </ul>
+    </div>
+
+    <script> const trigger = document.querySelector('.canvaslogin')
+      const offcanvas = document.querySelector('.botaologin')
+
+      trigger.addEventListener('click', toggleMobileMenu)
+
+      function toggleMobileMenu() {
+        offcanvas.classList.toggle('is-active')
+      }
+    </script>
+  </nav>
+
+  <main>
+    <section class="corpo">
+      <h3>Informações Pessoais</h3>
+      <div class="risco">
+      </div>
+      <form id="informacoes" autocomplete="no">
+        <label class="obg">Nome</label>
+        <input type="text" required>
+        <label class="obg">Sobrenome</label>
+        <input type="text" required>
+        <label class="obg">CPF</label>
+        <input type="text" required>
+        <label class="obg">Data de Nascimento</label>
+        <input type="date" required placeholder="dd/mm/aaaa">
+      </form>
+
+      <h3>Informações de Acesso</h3>
+      <div class="risco">
+      </div>
+
+      <form id="acesso" autocomplete="no">
+        <label class="obg">Email</label>
+        <input type="email" required>
+        <label class="obg">Senha</label>
+        <input type="password" required>
+      </form>
+
+      <h4>* Campos Obrigatórios</h4>
+
+      <div class="criar">
+        <button form="acesso" value="Criar Conta">Criar Conta</button>
+      </div>
+  </main>
+
+
+
+  <div class="margemforced"></div>
+
+  <section class="ajuda">
+    <a href="../../AJUDA/ajuda.html"><img src="../../IMAGENS/ajuda5.png"></a>
+  </section>
+
+  <footer>
+    <img src="../../IMAGENS/seloqualidade.png">
+
+    <p>2°A 2023© - Todos os direitos reservados.</p>
+
+    <p>Contatos:</p>
+
+    <ul>
+      <li><a href="https://wa.me/5541996546061" target="_blank">Tel: <span style="text-decoration: underline"><span
+              style="color: blue">(41)
+              99654-6061</span></span></a></li>
+      <li><a href="mailto:augusto.felipe@escola.pr.gov.br">Email: <span style="text-decoration: underline"><span
+              style="color: blue">augusto.felipe@escola.pr.gov.br</span></span></a></li>
+    </ul>
+  </footer>
+
+</body>
+
+</html>

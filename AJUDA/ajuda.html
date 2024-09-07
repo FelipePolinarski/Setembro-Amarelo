@@ -1,0 +1,100 @@
+<!DOCTYPE>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Fale Conosco</title>
+  <link href="ajuda.css" rel="stylesheet" type="text/css" />
+  <link rel="shortcut icon" type="imagex/png" href="../IMAGENS/fitinha.ico">
+</head>
+
+<body>
+
+  <nav>
+    <ul>
+      <li><button><a href="../index.html">Home</a></button></li>
+      <li><button><a href="ajuda.html">Fale Conosco</a></button></li>
+      <li><button><a href="../index.html">Encontre Ajuda</a></button></li>
+      <li><button><a href="../index.html">Campanha</a></button></li>
+      <li><button><a href="../index.html">Agenda</a></button></li>
+    </ul>
+
+    <button class="canvaslogin">Login</button>
+
+    <div class="botaologin">
+      <ul>
+        <li><a href="../LOGIN/login.html">Entrar</a></li>
+        <li><a href="../LOGIN/CRIARCONTA/criarconta.html">Criar Conta</a></li>
+      </ul>
+    </div>
+
+    <script> const trigger = document.querySelector('.canvaslogin')
+      const offcanvas = document.querySelector('.botaologin')
+
+      trigger.addEventListener('click', toggleMobileMenu)
+
+      function toggleMobileMenu() {
+        offcanvas.classList.toggle('is-active')
+      }
+    </script>
+  </nav>
+
+  <main>
+
+    <div class="margemforced"></div>
+    <div class="margemforced"></div>
+
+    <h1>Este é um lugar <span style="font-weight: bold">seguro</span> para você poder conversar com um amigo.</h1>
+
+    <div class="faixa-amarela">
+    </div>
+
+    <h2>Aqui você pode escrever qualquer coisa sobre seus os seus sentimentos, sem ter medo de <span
+        style="font-weight: bold">julgamento algum.</span></h2>
+
+    <div class="paragrafo">
+      <p>Todas as mensagens escritas nesta caixa de texto serão enviadas para uma equipe de psicólogos preparados e
+        dispostos a ajudar o máximo de pessoas possível.</p>
+      <p>Sem ter medo, escreva, com muitos ou poucos detalhes, aquilo que pelo qual você está passando e sentindo neste
+        momento.</p>
+      <p>Em torno de 24 horas será enviada uma resposta junto com o contato do(a) psicológo(a) que te respondeu, para
+        futuras consultas. A resposta será enviada no email que você colocar na caixa de texto.</p>
+    </div>
+
+    <h2>Agora é a sua vez:</h2>
+
+    <div class="faixa-amarela">
+    </div>
+
+    <div class="margemforced"></div>
+
+    <form id="faleconosco" autocomplete="off">
+      <fieldset>
+        <label>Nome:</label><input type="text"><br>
+        <label>Email:</label><input type="email" required><br>
+        <label>Mensagem:</label><br><textarea cols="35" rows="8"></textarea><br>
+        <input class="enviar" type="submit" value="Pronto!">
+      </fieldset>
+    </form>
+
+  </main>
+
+  <footer>
+    <img src="../IMAGENS/seloqualidade.png">
+
+    <p>2°A 2023© - Todos os direitos reservados.</p>
+
+    <p id="faleconosco">Contatos:</p>
+
+    <ul>
+      <li><a href="https://wa.me/5541996546061" target="_blank">Tel: <span style="text-decoration: underline"><span
+              style="color: blue">(41)
+              99654-6061</span></span></a></li>
+      <li><a href="mailto:augusto.felipe@escola.pr.gov.br">Email: <span style="text-decoration: underline"><span
+              style="color: blue">augusto.felipe@escola.pr.gov.br</span></span></a></li>
+    </ul>
+  </footer>
+
+</body>
+
+</html>
